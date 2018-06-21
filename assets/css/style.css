@@ -1,0 +1,81 @@
+body {
+	font-family: 'Noto Sans', sans-serif;
+	color:#900009;
+	text-emphasis: bold; 
+	
+}
+
+.container {
+	position: relative;
+}
+
+header.jumbotron {
+	background: #C12C1E;
+	border-radius: 24px;
+	color: beige; 
+	font-size: 50px; 
+}
+
+p {
+	font-family: 'Space Mono', monospace;
+	padding-top: 10px;
+	font-size: 18px;
+
+}
+
+
+h1 {
+	font-family: 'Space Mono', monospace;
+	font-style: bold;
+	font-size: 22px;
+	text-align: center;
+	position: relative;
+	letter-spacing: 8px;
+}
+
+h3 {
+	font-family: 'Space Mono', monospace;
+	color: gold; 
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.black-cinema {
+	background: black;
+	border-radius: 12px;
+	color:gold;
+	font-style: Courier New;
+	font-size: 15px;
+	padding: 10px;
+	margin: 5px;
+	margin-top: 20px;
+
+}
+
+#movie-form {
+	text-align: right;
+}
+
+
+
+input#movie-input {
+	color: #000;
+}
+
+input#add-movie.btn,btn-deafult {
+	color: #000;
+}
+label {
+	background-color: #900009;
+	color: white; 
+}
+.transbox{
+	background-color: beige; 
+	margin: 20px; 
+
+	
+}
+/* For mobile phones: */
+[class*="container"] {
+    width: 100%;
+}
